@@ -13,3 +13,7 @@ $ docker run -d -ti --name [container name] --gpus all --ipc=host --ulimit memlo
 ```
 docker exec -u 0 -it [container name] bash
 ```
+
+
+다음에 빌드할때 참고 해볼것
+https://askubuntu.com/questions/906230/run-sudo-command-with-non-root-user-in-docker-container
